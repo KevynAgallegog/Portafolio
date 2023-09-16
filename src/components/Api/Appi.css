@@ -1,0 +1,87 @@
+#navbar{
+    
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+        font-family: 'Kanit', sans-serif;
+      
+      
+}
+
+#products{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Kanit', sans-serif;
+}
+
+#footer{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbarApi{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .products-container{
+    width: 100%;
+  
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    justify-items: center;
+    padding: 10px;
+  }
+  
+  img{
+    width: 150px;
+    height: 250px;
+    transition: all 0.3 ease;
+
+
+  }
+  
+  img:hover{
+    transform: scale(1.1);
+  }
+  
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  .card-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 500px;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: bold;
+  }
